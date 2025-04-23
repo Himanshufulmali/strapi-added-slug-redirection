@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "redirects",
+  "info": {
+    "singularName": "redirect",
+    "pluralName": "redirects",
+    "displayName": "Redirect"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "oldSlug": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "newSlug": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
